@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+nav {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 15px 50px; 
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul .menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li  {
+    color: white; /* White text color */
+    padding: 10px 20px; /* Spacing around the text */
+    cursor: pointer; /* Pointer on hover */
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li:hover {
+    background-color: #555; /* Change background on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+nav ul .brand {
+    font-weight: bold; /* Make the 'KRISH' item bold */
+    font-size: 1.2em; /* Slightly larger */
+}
+
+.banner{
+    width: 100%;
+}
+
+.sub_container{
+    margin: 10px;
+    padding: 50px; 
+}
+
+.sub_container h3{
+    padding-bottom: 25px; 
+}
+
+.sub_container p{
+    font-size: 20px;
+    line-height: 2;
+}
